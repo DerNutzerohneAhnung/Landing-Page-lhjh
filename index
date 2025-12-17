@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luan</title>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #111;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            text-align: center;
+        }
+        .name {
+            font-size: 96px; /* Groß und auffällig wie im Beispiel */
+            font-family: 'Permanent Marker', cursive; /* Handschriftlicher Stil */
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .name .dot {
+            color: red;
+            font-size: 80px; /* Etwas größer als der Text, für Akzent */
+            margin-right: 8px;
+        }
+        .contact {
+            margin-top: 45px;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        .contact a {
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="name"><span class="dot">.</span>luan</div>
+        <div class="contact">
+            Franzi ist die beste Lindenstraße 15<br>
+            91126 Kammerstein<br>
+            <a href="mailto:business@lhjl.de">business@lhjl.de</a><br>
+            Tel. 0157/70256363
+        </div>
+    </div>
+</body>
+</html>
